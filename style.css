@@ -1,0 +1,83 @@
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Droid Serif", serif;
+    color: #333;
+  }
+  
+  body * {padding: 0;}
+  section {text-align: center;}
+
+  .container {max-width: 700px; margin: auto;}
+  .row {padding: 1.5rem 1rem;}
+  #judul, #footer {color: #fdfdfd;}
+
+  hr {
+    margin: 3rem auto;
+    border: 0.5px solid #333;
+    width: 200px;
+  }
+
+  #home{
+    background-image: url(foto1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  #judul {
+    font-size: 5rem;
+    padding-left: 10rem;
+  }
+  
+  @media (max-width: 600px) {
+    #tribute-info {justify-content: center}
+    #title {padding-left: 0;}
+  }
+  
+  /*** BLOCKQUTE ***/
+  blockquote {
+    margin: 2rem auto;
+    max-width: 600px;
+    color: gray;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.2rem;
+  }
+  
+  blockquote * {
+    margin: 0;
+    padding: 0.5rem 1rem;
+  }
+  
+  /*** SECTION .TIMELINE ***/
+  .perjalanan {
+    background: #E4002B;  /* fallback for old browsers */
+    padding-bottom: 3rem;
+  }
+
+  .timeline_row {
+color: #fdfdfd;
+  }
+  
+ .kritik
+ {
+    padding: auto;
+    margin: auto;
+}
+  
+  /*** FOOTER ***/
+  #footer {
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3rem;
+  }
+  
+  #tribute-link:hover {transform: scale(1.1);}
+  
+  #footer img {width: 80px;}
